@@ -1,0 +1,24 @@
+<nav class="navbar">
+
+    <!-- menu responsivo mobile-->
+    <span id="menu-mobile" class="navbar-toogle">
+        <mat-icon>menu</mat-icon>
+    </span>
+        <!-- menu responsivo desktop-->
+        <span class="logo"><img src="../../../assets/img/Logo.png"></span>
+
+        <ul id="menu-desktop" class="main-nav">
+            <li>
+                <a routerLink="/lista-contatos" class="nav-links">Contatos</a>
+            </li>
+            <li>
+                <a routerLink="/lista-usuarios" class="nav-links">Usuários</a>
+            </li>
+            <li>
+                <a class="nav-links logout" (click)="logout()">Logout</a>
+            </li>
+        </ul>
+</nav>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
