@@ -1,0 +1,70 @@
+<app-navbar></app-navbar>
+<section>
+    <div class="container_title">
+        <p>CADASTRO DE USUÁRIOS</p>
+    </div>
+</section>
+<section>
+      <form [formGroup]="formUsuarios">
+        <div class="grid-container">
+              <div>
+                <span>Email</span>
+                <input formControlName="email" type="text" name="email">
+              </div>
+              <div>
+                <span>Senha</span>
+                <input formControlName="password" type="text" name="password">
+              </div>
+              <div>
+                <span>Nome</span>
+                <input formControlName="name" type="text" name="name">
+              </div>
+              <div class="box">
+                <div class="check"><input type="checkbox"></div>
+                <span class="label"><label><h3>Administrador?</h3></label></span>            
+              </div>
+              <div>
+                <button mat-raised-button color="primary" (click)="save()">Cadastrar Usuário</button>
+              </div> 
+        </div>
+      </form>
+</section>
+
+
+
+
+
+
+<!--<app-navbar></app-navbar>
+<section>
+    <div class="texto">
+        <p>Cadastrar Novo Usuário</p>
+    </div>
+</section>
+<section>
+        <div class="grid-container">
+              <div class="item1">
+                <h3 class="nome">Email</h3>
+                <input matInput placeholder>
+              </div> 
+              <div class="item2">
+                <h3 class="phone">Senha</h3>
+                <input matInput placeholder>
+              </div>
+              <div class="item3">
+                <h3 class="mail">Nome</h3>
+                <input matInput placeholder>
+              </div> 
+              <div class="Item4">
+                  <div class=box>
+                    <input type="checkbox">
+                  <label><h3>Administrador?</h3></label>  
+                  </div>            
+              </div>
+        </div>
+</section>
+<section>
+    <button mat-button color="primary">Salvar Usuário</button>
+</section>-->
+
+
